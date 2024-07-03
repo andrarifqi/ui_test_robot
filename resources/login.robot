@@ -4,14 +4,10 @@ Resource    ${CURDIR}/../variables/login_variable.robot
 
 *** Keywords ***
 Login to Gank
-    Wait Until Element Is Visible   ${usernameField}    ${timeout}
-    Wait Until Element Is Visible   ${passwordField}    ${timeout}
-    Wait Until Element Is Visible   ${loginBtn}     ${timeout}
-    Input Text  ${usernameField}   ${username}
-    Input Password  ${passwordField}   ${password}
-    Click Element   ${loginBtn}
+    Wait Until Element Is Visible   ${username_field}    ${timeout}
+    Wait Until Element Is Visible   ${password_field}    ${timeout}
+    Wait Until Element Is Visible   ${login_btn}     ${timeout}
+    Input Text  ${username_field}   ${username}
+    Input Password  ${password_field}   ${password}
+    Click Element   ${login_btn}
     Wait Until Page Contains     ${username}        ${timeout}
-    # Wait Until Element Is Visible   ${countryBtn}
-    # Click Element   ${countryBtn}
-    # Wait Until Element Is Visible   ${countryModal}
-    # Sleep   5

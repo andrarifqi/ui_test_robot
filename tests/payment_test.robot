@@ -4,7 +4,7 @@ Resource    ${CURDIR}/../variables/payment_variable.robot
 Resource    ${CURDIR}/../resources/common_keyword.robot
 Resource    ${CURDIR}/../resources/login.robot
 Resource    ${CURDIR}/../resources/payment.robot
-Test Setup    Open Web    ${baseUrl}
+Test Setup    Open Web    ${base_url}
 Test Teardown    End Test
 
 *** Test Cases ***

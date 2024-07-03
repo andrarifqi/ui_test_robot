@@ -7,13 +7,13 @@ Library         OperatingSystem
 
 *** Keywords ***
 Open Web
-    [Arguments]    ${baseUrl}
-    Open Browser    ${baseUrl}/login  ${browser}  executable_path=${driverPath}
+    [Arguments]    ${base_url}
+    Open Browser    ${base_url}/login  ${browser}  executable_path=${driver_path}
 
 End Test
     Close Browser
 
 Open Creator Profile
-    [Arguments]    ${creatorName}
-    Go to   ${baseUrl}/${creatorName}
-    Wait Until Page Contains    ${creatorName}      ${timeout}
+    [Arguments]    ${creator_name}
+    Go to   ${base_url}/${creator_name}
+    Wait Until Page Contains    ${creator_name}      ${timeout}

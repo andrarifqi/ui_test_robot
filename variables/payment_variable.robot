@@ -1,7 +1,7 @@
 *** Variables ***
-${donateCreatorBtn}    xpath=//*[@data-test-id="donate-page-button"]
-${donateSubmitBtn}    xpath=//*[@data-test-id="donate-page-submit-button"]
-${qrisRadioBtn}    xpath=//*[@data-test-id="radio-payment-method-xendit_qris"]
-${payBtn}    //*[@id="payment-button"]
+${donate_creator_btn}    xpath=//*[@data-test-id="donate-page-button"]
+${donate_submit_btn}    xpath=//*[@data-test-id="donate-page-submit-button"]
+${qris_radio_btn}    xpath=//*[@data-test-id="radio-payment-method-xendit_qris"]
+${pay_btn}    //*[@id="payment-button"]
 
-${qrisQrCode}   xpath=//*[@data-testid="qr-code-canvas"]
+${qris_qr_code}   xpath=//*[@data-testid="qr-code-canvas"]

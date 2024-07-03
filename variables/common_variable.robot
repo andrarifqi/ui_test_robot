@@ -1,11 +1,11 @@
 *** Variables ***
-${baseUrl}  https://staging.gamepal.gg
+${base_url}  https://staging.gamepal.gg
 ${browser}  chrome
-${driverPath}   /opt/homebrew/bin/chromedriver    
+${driver_path}   /opt/homebrew/bin/chromedriver    
 ${timeout}  15
 
 ${username}   automatecreator
 ${password}   Ardisty1998
 
-${countryBtn}   //*[@id="__layout"]/div/header/div/div[2]/div/div/button[2]
-${countryModal}    //*[@class="ant-modal-content"]
+${country_btn}   //*[@id="__layout"]/div/header/div/div[2]/div/div/button[2]
+${country_modal}    //*[@class="ant-modal-content"]

@@ -1,7 +1,7 @@
 *** Variables ***
-${loginBtnNavMenu}    xpath=//*[@data-test-id="nav-menu-signin-button"]
-${profileNavMenu}   xpath=//*[@data-test-id="nav-menu-profile-link"]
+${login_btn_nav_menu}    xpath=//*[@data-test-id="nav-menu-signin-button"]
+${profile_nav_menu}   xpath=//*[@data-test-id="nav-menu-profile-link"]
 
-${usernameField}    //*[@id="login_email"]
-${passwordField}    //*[@id="login_password"]
-${loginBtn}      xpath=//*[@data-test-id="signin"]
+${username_field}    //*[@id="login_email"]
+${password_field}    //*[@id="login_password"]
+${login_btn}      xpath=//*[@data-test-id="signin"]
